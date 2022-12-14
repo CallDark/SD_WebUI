@@ -4,7 +4,7 @@ os.system(f"git clone https://github.com/camenduru/stable-diffusion-webui /home/
 
 os.chdir("/home/user/app/")
 os.system(f"wget -q https://github.com/CallDark/SD_WebUI/blob/webui_colab/config.json -O /home/user/app/config.json")
-os.system(f"wget -q https://github.com/CallDark/SD_WebUI/blob/webui_colab/ui-config.json -O /home/user/app/config.json")
+os.system(f"wget -q https://github.com/CallDark/SD_WebUI/blob/webui_colab/ui-config.json -O /home/user/app/ui-config.json")
 
 os.chdir("/home/user/app/stable-diffusion-webui")
 
